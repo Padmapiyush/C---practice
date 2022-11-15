@@ -1,0 +1,3 @@
+Array :- An Array is a collection of similar data elements of the same data types.
+delaration can be done as - 
+type name[size];  as  int mark[10];
