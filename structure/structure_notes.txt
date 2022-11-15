@@ -1,0 +1,16 @@
+Structure is a concept in which we can store more than an different data type values in a single variable.
+
+SYNTAX - 
+        struct structure_name
+        {
+            data_type var;
+            data_type var2;
+            data_type var3;
+        };
+
+EXAMPLE -
+        struct Employee
+        {
+            int id, sal;
+            char name[20];
+        };   
