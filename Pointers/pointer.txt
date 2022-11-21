@@ -1,0 +1,11 @@
+A pointer is a variable whose value is the address of another variable
+
+Syntax:- 
+           type *var-name;
+example:-  
+           int    *ip;    /* pointer to an integer */
+           double *dp;    /* pointer to a double */
+           float  *fp;    /* pointer to a float */
+           char   *ch     /* pointer to a character */
+
+NULL Pointers:-  
