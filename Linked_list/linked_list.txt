@@ -1,0 +1,36 @@
+Linked List
+
+"A linked list is a linear data structure in which the elements are not stored at contagious memory locations."
+The elements in a linked list are stored using a pointer.
+
+Every linked list contains nodes where every node consists a data part and a pointer part to 
+ store the reference to the next node.
+
+Why Linked list ?
+1. Size of Array is fixed.
+2. Array modification is complex and time consuming.
+
+Drawbacks of linked list :-
+1. Random access is not allowed.
+2. It contains pointer that occupies extra space in memory.
+3. linked list elements are not contagious location.
+
+Time Complexity:
+Search - O(n)
+Insert - O(1)
+Delete - O(1)
+
+Syntax:- 
+
+In C++ :- 
+            class Node(){
+                public:
+                int data;
+                Node* next;
+            } ;
+
+In C   :- 
+            struct Node(){
+                int data;
+                struct Node* next;
+            };

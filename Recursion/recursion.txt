@@ -1,0 +1,43 @@
+Recursion
+
+"Functions calls itself directly or indirectly"
+
+1. It helps us to reduce the length of the code.
+2. It helps us performing same opertaions with different inputs.
+
+Recursion uses more memory because the recursive added to the stack with
+ each recursice calls and keeps the values there until the call is finished.
+ The recursive Functions uses LIFO (Last In First Out) structure just like 
+ the stack data structure.
+
+ex. int fact(int n){
+    if(n<=1){
+        return 1;
+    }
+    else{
+        return n* fact(n-1)
+    }
+}
+
+There are direct and indirect type of recursion. 
+1. Direct recursion :- In this recursion the function is called in its own block of code.
+                
+                void directfun(){
+                    // code
+                    directfun();
+                    // code
+                }
+
+2. Indirect recursion :- In this recursion the funcion is called another block of code. 
+                
+                void directfun1(){
+                    // code
+                    directfun2();
+                    //code
+                }
+
+                void directfun2(){
+                    //code
+                    directfun1();
+                    //code
+                }
