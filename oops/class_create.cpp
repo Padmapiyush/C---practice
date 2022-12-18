@@ -16,11 +16,11 @@ int main(){
     student arr[3];
     for(int i=0; i<3; i++){
         cout<<"name = ";
-        cin>>arr[i].name;
+        cin>>arr[i].name; // array to print name 
         cout<<"Age = ";
-        cin>>arr[i].age;
+        cin>>arr[i].age; // array to print age
         cout<<"gender = ";
-        cin>>arr[i].gender;
+        cin>>arr[i].gender; // array to print gender
     }
     for(int i=0; i<3;i++){
         arr[i].printInfo();
