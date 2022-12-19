@@ -46,3 +46,5 @@ Output:-
 Elements of Vector-1 = 1 2 3 4 5  
 Elements of Vector-2 = 1 2 3 4 5  
 Elements of Vector-3 = 1 1 1 1 1  
+
+more at : https://www.codingninjas.com/codestudio/library/vectors-in-c
