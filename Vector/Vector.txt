@@ -1,0 +1,48 @@
+Vector:-
+       Vectors are dynamic arrays that can resize when elements are inserted or deleted automatically at runtime. 
+       Like arrays, elements of vectors are placed at contiguous storage therefore they can be accessed and traversed easily using iterators.
+       The main problem when working with arrays is that they are of a fixed size that must be specified beforehand,
+       because of which, it becomes difficult to insert or delete elements from the array during compile time.
+       Elements are added at the end in vectors that take differential time, whereas removing the last elements takes constant time.
+
+       Syntax:- 
+       vector<T> vector_name;
+
+       Example:- 
+       #include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    
+    // METHOD - 1
+    // initializer list
+    vector<int> v1 = {1, 2, 3, 4, 5};
+    // uniform initialization
+    vector<int> v2{1, 2, 3, 4, 5};
+    
+    // METHOD - 2
+    vector<int> v3(5, 1);
+    
+    cout << "Elements of Vector-1 = ";
+    for (const int& i : v1) {
+      cout << i << " ";
+    }
+    
+    cout << "\nElements of Vector-2 = ";
+    for (const int& i : v2) {
+      cout << i << " ";
+    }
+    
+    cout << "\nElements of Vector-3 = ";
+    for (int i : v3) {
+      cout << i << " ";
+    }
+    
+}
+
+Output:- 
+
+Elements of Vector-1 = 1 2 3 4 5  
+Elements of Vector-2 = 1 2 3 4 5  
+Elements of Vector-3 = 1 1 1 1 1  

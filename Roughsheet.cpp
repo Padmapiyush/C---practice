@@ -2,12 +2,12 @@
 using namespace std;
 
 int main(){
-    char n;
-    cin>>n;
-    if(n>=48 && n<=57){
-        cout<<"its a digit";
-    }
-    else{
-        cout<<"notta digit";
+    int n=0;
+    while(n<10){
+        if(n==4){
+            continue;
+        }
+        cout<<n<<endl;
+        n++;
     }
 }
